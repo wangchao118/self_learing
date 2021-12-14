@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/account.h
+string
+-
+
+/home/ai/Documents/Learing/c_c++_Self_Learing/C++ primer plus/10.9.5/main.cpp
+iostream
+-
+account.h
+/home/ai/Documents/Learing/c_c++_Self_Learing/C++ primer plus/10.9.5/account.h
+
+/home/ai/Documents/Learing/c_c++_Self_Learing/C++ primer plus/10.9.5/src/account.cpp
+iostream
+-
+account.h
+/home/ai/Documents/Learing/c_c++_Self_Learing/C++ primer plus/10.9.5/src/account.h
+

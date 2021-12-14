@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Gun.h
+string
+-
+
+../include/Soldier.h
+string
+-
+Gun.h
+../include/Gun.h
+
+/home/ai/Desktop/c_c++_Self_Learing/VScode_CMake_Learing/7/main.cpp
+Gun.h
+/home/ai/Desktop/c_c++_Self_Learing/VScode_CMake_Learing/7/Gun.h
+Soldier.h
+/home/ai/Desktop/c_c++_Self_Learing/VScode_CMake_Learing/7/Soldier.h
+
+/home/ai/Desktop/c_c++_Self_Learing/VScode_CMake_Learing/7/src/Gun.cpp
+Gun.h
+/home/ai/Desktop/c_c++_Self_Learing/VScode_CMake_Learing/7/src/Gun.h
+iostream
+/home/ai/Desktop/c_c++_Self_Learing/VScode_CMake_Learing/7/src/iostream
+
+/home/ai/Desktop/c_c++_Self_Learing/VScode_CMake_Learing/7/src/Solider.cpp
+Soldier.h
+/home/ai/Desktop/c_c++_Self_Learing/VScode_CMake_Learing/7/src/Soldier.h
+iostream
+-
+
